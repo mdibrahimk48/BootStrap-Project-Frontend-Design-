@@ -1,0 +1,115 @@
+h1, h2, h3, h4, h5, h6{
+    color: coral;
+}
+img{
+    max-width: 100%;
+}
+#hero_area{
+    background: url(../img/hero_bg.jpg) no-repeat scroll 0 0;
+    background-position: center center;
+    background-size: 100%;
+    color:white;
+}
+#hero_area h1{
+    color: white;
+}
+.row.single_slide{
+    padding: 10% 0;
+}
+
+#hero_area .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#hero_area .carousel-indicators {
+    left: 60%;
+}
+.row.services_container {
+    padding: 70px 0;
+}
+#services img{
+    height: 50%;
+    width: 50%;
+    padding-bottom: 20px;
+}
+#portfolio{
+    background-color: #2D3F4D;
+    padding: 50px;
+    color: white;
+}
+#portfolio img{
+    height: 350px;
+    width: 500px;
+    border: 10px solid white;
+}
+
+/* .rect{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+button.rect_btn{
+    transform: scale(0);
+    transition: is ease all;
+}
+.rect:hover .rect_btn{
+    transform: scale(1);
+} */
+
+
+  #testimonial img{
+    height: 150px;
+}
+
+#testimonial .carousel-indicators button{
+    background-color: salmon;
+    padding: 3px;
+    width: 5%;
+}
+#testimonial .carousel-indicators {
+    margin-bottom: -50px;
+}
+#footer_widget {
+    background-color: #2D3F4D;
+    margin-top: 40px;
+}
+#footer_widget h4{
+    font-weight: 700;
+}
+#footer_widget p {
+    color: white;
+    margin-bottom: 1px !important;
+    font-size: medium;
+}
+#footer_widget a {
+    color: #217493;
+    text-decoration: none;
+    font-size: medium;
+}
+#footer_widget .post_time{
+    border-bottom: 2px solid white;
+    margin-bottom: 5px !important;
+}
+#footer_widget .post_time:last-child{
+    border-bottom: none;
+}
+#footer_widget .col-md-9 {
+    margin-top: -10px;
+}
+#footer_widget p.text-justify {
+    text-align: justify;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+input#email {
+    padding: 5px 2px;
+    width: 100%;
+    margin: 0px 0px 5px 0px;
+    border-radius: 5px;
+    border: none;
+}
+input.btn.btn-warning {
+    margin-top: 10px;
+}
